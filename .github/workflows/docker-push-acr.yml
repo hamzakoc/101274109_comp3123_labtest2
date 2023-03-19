@@ -41,7 +41,7 @@ jobs:
       - name: Push Docker image to Azure Container Registry
         uses: docker/build-push-action@v2
       - name: List contents of working directory
-        uses: ls -la 
+        run: ls -la
 
         with:
           context: .
