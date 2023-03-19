@@ -60,7 +60,7 @@ export default function UseEffectExample() {
                             <p className="temp">Humidity: {weather.humidity} %</p>
                         </div>
                          <div className="flex">
-                            <p className="temp"><a href="http://devcloudops.ca" target="_blank" >DevCloudOps </a></p>
+                            <p className="temp"><a href="http://devcloudops.ca" target="_blank" >DevCloudOps </a> Hamza Koc</p>
                            
                         </div>
                     </div>
