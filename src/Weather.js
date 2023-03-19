@@ -6,7 +6,7 @@ import moment from 'moment';
 export default function UseEffectExample() {
 
     var country = 'Toronto'
-    var apiKey = "Write Your API"
+    var apiKey = "3bd17d30c9cf309f9cbf592bee440b1d"
     var unit = "metric"
     var url = `https://api.openweathermap.org/data/2.5/weather?q=${country}&appid=${apiKey}&units=${unit}`
 
