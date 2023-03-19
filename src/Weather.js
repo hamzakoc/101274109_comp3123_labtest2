@@ -59,6 +59,10 @@ export default function UseEffectExample() {
                             <p className="temp">Temprature: {weather.temp} &deg;C</p>
                             <p className="temp">Humidity: {weather.humidity} %</p>
                         </div>
+                         <div className="flex">
+                            <p className="temp">DevCloudOps</p>
+                           
+                        </div>
                     </div>
                 </Card.Content>
             </Card>
