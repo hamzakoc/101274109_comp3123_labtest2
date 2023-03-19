@@ -40,6 +40,8 @@ jobs:
           password: ${{ secrets.REGISTRY_PASSWORD }}
       - name: Push Docker image to Azure Container Registry
         uses: docker/build-push-action@v2
+      - name: list files
+        run: ls -la
         with:
           context: .
           file: Dockerfile
