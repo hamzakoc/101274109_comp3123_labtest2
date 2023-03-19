@@ -8,7 +8,8 @@ on:
 env:
   REGISTRY: devcloudops.azurecr.io
   IMAGE_NAME: wheatherappreact
-  TAG: ${{ github.sha }}
+  TAG: latest
+  # TAG: ${{ github.sha }}
 
 jobs:
   build-and-push:
